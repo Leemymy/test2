@@ -1,0 +1,22 @@
+PackageIdentifier: Leemymy.Daynote
+PackageVersion: 0.4.7
+PackageLocale: ko-KR
+Publisher: Leemymy
+PackageName: 날짜노트
+License: Proprietary
+ShortDescription: Windows 날짜별 메모와 일정 관리
+InstallerType: exe
+Scope: user
+InstallerSwitches:
+  Silent: --silent
+  SilentWithProgress: --silent
+AppsAndFeaturesEntries:
+- DisplayName: 날짜노트
+  Publisher: Leemymy
+  ProductCode: Leemymy.Daynote
+Installers:
+- Architecture: x64
+  InstallerUrl: https://raw.githubusercontent.com/Leemymy/test2/main/daynote/Daynote-WinGet-Setup-0.4.7.exe
+  InstallerSha256: 5E68EB5CEEDAC26FBE3A67CA194DB40F25B07549E0FBEF04C03A09D2077669FF
+ManifestType: singleton
+ManifestVersion: 1.6.0
